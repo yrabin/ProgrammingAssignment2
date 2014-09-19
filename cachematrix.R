@@ -50,7 +50,7 @@ cacheSolve <- function(x, ...) {
 
 
 ## TEST CODE
-nrows <- 2 #must be square matrix!
+"nrows <- 2 #must be square matrix!
 ncols <- nrows
 myMatrix <- matrix(runif(ncols*nrows), ncol=ncols) #generate random matrix
 print(myMatrix)
@@ -60,5 +60,5 @@ invSolution <- cacheSolve(cacheMatrix) #first run will cache the inverse result
 print(invSolution)
 
 scndInvSolution <- cacheSolve(cacheMatrix) #2nd run, results from cache
-print(scndInvSolution)
+print(scndInvSolution)"
 
